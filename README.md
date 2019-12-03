@@ -8,7 +8,7 @@ An online library management system  essentially comprises of  all the facilitie
 Offering a website capable of handling both the issuing of books  and buying books through a common portal.
 
 # Stakeholders : 
-       1.Student(Common User):
+       1.Student(Common User)
 1.Login / Signup<br />
 View Books available at that instant <br />
 Search , filtered search and advanced search  <br />
@@ -23,7 +23,7 @@ View Fine availed if failed to return the book and pay for the same as they wont
 View the return date of the books issued  <br />
 View transaction history <br />
 
-       2. Book Verification Incharge :
+       2. Book Verification Incharge 
 Login / Signup <br />
 View books being issued according to time filters and the corresponding user issuing the same  <br />
 Approve the requests of sellers to publish the ad of their book on the site for selling once verified  <br /> 
@@ -32,7 +32,7 @@ Put requests to the admin level 2 to restock books once out of stock  <br />
 Report Generation  <br />
 
     
-   3. Admin : 
+   	3. Admin  
 <ul>
 Login/Signup  <br />
 Authorize users to be admin of level 1  <br />
