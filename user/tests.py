@@ -18,7 +18,7 @@ class LoginTest(LiveServerTestCase):
 
 	def test_login(self):
 		selenium = self.selenium
-		selenium.get("http://127.0.0.1:8000")
+		selenium.get("http://localhost:8000")
 		selenium.find_element_by_class_name("btn-gradient").click()
 
 
