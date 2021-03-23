@@ -25,7 +25,7 @@ SECRET_KEY = 'a*bu++831+uui@^@^fw=meb#*5*+!*dm51rw@$d+)13%yi8_p-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1","lms.com"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
