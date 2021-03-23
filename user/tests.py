@@ -1,10 +1,13 @@
 from django.test import LiveServerTestCase
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver import FireFoxOptions
 
 class LoginTest(LiveServerTestCase):
 	def setUp(self):
-		self.selenium = webdriver.Firefox()
+		opts = FireFoxOptions()
+		opts.add_argument("--headless")
+		self.selenium = webdriver.Firefox(executable_path = "./drivers/geckodriver",service_log_path = "./geckodriver.log",options = opts)
 		super(LoginTest,self).setUp()
 
 	def tearDown(self):
