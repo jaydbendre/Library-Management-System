@@ -3,11 +3,11 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import os
-print(os.getcwd())
+
 class LoginTest(LiveServerTestCase):
 	def setUp(self):
 		os.getcwd()	
-		self.selenium = webdriver.Firefox(executable_path = "user/drivers/geckodriver",service_log_path = "./geckodriver.log")
+		self.selenium = webdriver.Firefox(service_log_path = "./geckodriver.log")
 		super(LoginTest,self).setUp()
 
 	def tearDown(self):
