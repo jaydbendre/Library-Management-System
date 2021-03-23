@@ -1,0 +1,15 @@
+1616496207445	geckodriver	INFO	Listening on 127.0.0.1:56291
+1616496208430	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1fGvAo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616496214167	Marionette	INFO	Listening on port 38833
+1616496214228	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/js/particles.min.js, line 9: TypeError: t is null
+1616496216864	Marionette	INFO	Stopped listening on port 38833
+1616496343784	geckodriver	INFO	Listening on 127.0.0.1:53103
+1616496344799	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileONXXl0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616496350498	Marionette	INFO	Listening on port 44671
+1616496350575	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/js/particles.min.js, line 9: TypeError: t is null
+JavaScript error: http://127.0.0.1:8000/static/js/main.js, line 5: TypeError: signUpButton is null
+1616496354416	Marionette	INFO	Stopped listening on port 44671
