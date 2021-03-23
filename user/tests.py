@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 class LoginTest(LiveServerTestCase):
 	def setUp(self):
-		self.selenium = webdriver.Firefox(executable_path = "./drivers/geckodriver",service_log_path = "./geckodriver.log")
+		self.selenium = webdriver.Firefox(executable_path = "/user/drivers/geckodriver",service_log_path = "./geckodriver.log")
 		super(LoginTest,self).setUp()
 
 	def tearDown(self):
