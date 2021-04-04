@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'lms',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': 'localhost',
+        'HOST': 'LMSDB',
         'PORT': '',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'" 

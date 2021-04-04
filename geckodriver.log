@@ -13,3 +13,17 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript error: http://127.0.0.1:8000/static/js/particles.min.js, line 9: TypeError: t is null
 JavaScript error: http://127.0.0.1:8000/static/js/main.js, line 5: TypeError: signUpButton is null
 1616496354416	Marionette	INFO	Stopped listening on port 44671
+1616497505950	geckodriver	INFO	Listening on 127.0.0.1:55477
+1616497506940	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewmq47f"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:3646): GLib-GObject-CRITICAL **: 16:35:08.075: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:3662): GLib-GObject-CRITICAL **: 16:35:08.271: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:3721): GLib-GObject-CRITICAL **: 16:35:10.132: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1616497510242	Marionette	INFO	Listening on port 40265
+1616497510279	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616497510539	Marionette	INFO	Stopped listening on port 40265
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 988: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
